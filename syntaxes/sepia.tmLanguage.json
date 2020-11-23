@@ -1,0 +1,61 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Sepia",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#expressions"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.sepia",
+				"match": "\\b(if|else|f|return|end|value)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.sepia",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.sepia",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"name":"comment.line",
+			"begin": "#",
+			"end": "\n",
+			"patterns": [
+				{
+					"name": "constant.character.escape.sepia",
+					"match": "\\\\."
+				}
+			]
+		},
+		"expressions": {
+			"begin": "\\(",
+			"end": "\\)",
+			"beginCaptures": {
+			  "0": { "name": "punctuation.paren.open" }
+			},
+			"endCaptures": {
+			  "0": { "name": "punctuation.paren.close" }
+			},
+			"name": "storage",
+			"patterns": []
+		  }
+	},
+	"scopeName": "source.sp"
+}
