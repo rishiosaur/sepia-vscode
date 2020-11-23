@@ -22,5 +22,6 @@
             "path": "./syntaxes/sepia.tmLanguage.json"
         }]
     },
-    "publisher": "rishiosaur"
+    "publisher": "rishiosaur",
+    "repository": "https://github.com/rishiosaur/sepia-vscode"
 }

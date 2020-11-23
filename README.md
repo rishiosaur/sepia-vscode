@@ -1,13 +1,17 @@
-# sepia README
+# Sepia Language Extension for VS Code.
 
-This is the README for your extension "sepia". After writing up a brief description, we recommend including the following sections.
+Welcome to the Sepia Language for VS Code! This extension brings a minimalist toolkit to the editor for working with Sepia.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Syntax Highlighting
 
-For example if there is an image subfolder under your extension project workspace:
+The title says it all.
 
-\!\[feature X\]\(images/feature-x.png\)
+### Bracket & String completion
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Pretty cool!
+
+### Commenting
+
+For the times that you don't need your code to run.
