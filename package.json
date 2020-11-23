@@ -1,0 +1,25 @@
+{
+    "name": "sepia",
+    "displayName": "sepia",
+    "description": "Sepia Language support.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sepia",
+            "aliases": ["Sepia", "sepia"],
+            "extensions": [".sp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sepia",
+            "scopeName": "source.sp",
+            "path": "./syntaxes/sepia.tmLanguage.json"
+        }]
+    }
+}
